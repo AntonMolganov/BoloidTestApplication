@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityFragment">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ru.yandex.yandexmapkit.MapView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="m8k42-eBE~eYfFHtB-9hTrfc8Sj-Kai1poQ4DNzbavYKFb3C96CfQR8D4Y~7SzFrpMQfJqsybL7YKMjveTBXcgY7a5-bRBySUT7df1sADBc="/>
+
+</RelativeLayout>
